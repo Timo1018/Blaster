@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: auto;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  scroll-behavior: smooth;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* /* .backgroundimage {
+  background-image: url("./Assets//Images/s.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+.backgroundimage {
+  background-image: url("https://preview.uideck.com/items/appland/assets/images/header-shape-2.svg");
+  background-size: contain;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+.backgroundimage1 {
+  background-image: url("https://preview.uideck.com/items/appland/assets/images/header-shape-1.svg");
+  background-size: contain;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+per-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+   margin-top: 20px;
+  }
+ .navbar-color {
+  position: fixed;
+  /* margin-top: 10px !important; */
+  top: 0;
+  width: 80%;
+  background-color: white;
+  z-index: 9999 !important;
+  box-shadow: 0 0 0.3rem 0.1rem rgb(215, 200, 200) !important;
+}
+.animationbutton {
+  animation: animation1 2s linear infinite;
+}
+@keyframes animation1 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0.6rem #0898e7;
+}
+50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0.6rem #0898e7;
+    opacity: 1;
+}
+
+100% {
+    transform: scale(1);
+    box-shadow: 0 0 0.6rem #0898e7;
+    opacity: 1;
+}
+}
+.backgorund{
+  background-image: url('https://preview.uideck.com/items/appland/assets/images/features-app.png');
+}
+.backgroundimage {
+  background-image: url("./Assets//Images//images.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.plarniotasi p:hover{
+  color: #0898e7;
+}
+.plarniotasi p{
+  transition-duration: 0.8s;
+  color: #747e88;
+  font-size: 18px;
+}
+.plarniotasi h2{
+  font-size: 22px;
+  font-weight: 600;
+}
+.slick-next:before {
+  padding: 20px 10px;
+  margin: 0px 10px;
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  background: #000;
+  display: none;
+}
+.slick-prev:before {
+  padding: 20px 10px;
+  margin-left: -200%;
+  display: none;
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  background: #000;
+}
+/* .carousel{
+  background-image: url('./Assets//app-frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 600px;
+  z-index: 9999 !important;
+} */
+.backgroundfooter {
+  background-image: url("./Assets/Images/footer-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30vh;
+}
