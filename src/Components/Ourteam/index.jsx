@@ -5,7 +5,7 @@ import Image3 from "../../Assets/Images/team3.jpg";
 
 const Ourteam = () => {
   return (
-    <div className="xl:pb-24 grid justify-items-center">
+    <div className="xl:pb-24 grid justify-items-center" id="Team">
       <div className="text-center justify-center mt-20 pb-20">
         <p className="xl:text-[60px] lg:text-[50px] text-[40px] font-bold uppercase text-[#333333]">
           Our Team

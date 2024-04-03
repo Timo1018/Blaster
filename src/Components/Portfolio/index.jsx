@@ -53,7 +53,7 @@ const data = [
 function Portfolio() {
   const [fillter, setFillter] = useState("All");
   return (
-    <div className="w-full items-center text-[#1e1e1e] bg-[#F9F9F9] pt-20 mt-10 xl:mt-20">
+    <div className="w-full items-center text-[#1e1e1e] bg-[#F9F9F9] pt-20 mt-10 xl:mt-20" id="Portfolio">
       <div className="grid w-[100%] px-2 gap-10 xl:w-full" id="Prt">
         <div className="grid justify-items-center">
           <p className="text-[#333333] xl:text-[58px] text-[40px] font-bold tracking-[4px]"> PORTFOLIO</p>

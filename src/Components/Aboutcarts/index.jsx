@@ -4,7 +4,7 @@ import Ourfocus from "./ourfocus";
 
 const Aboutcarts = () => {
   return (
-    <div className="text-[#333333] mt-24">
+    <div className="text-[#333333] mt-24" id="About">
       <div>
         <div className="grid justify-center text-center">
           <p className="xl:text-[58px] lg:text-[50px] text-[40px] font-bold">

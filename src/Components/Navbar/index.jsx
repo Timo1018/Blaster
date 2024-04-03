@@ -25,21 +25,21 @@ const Navbar = () => {
           </a>
         </div>
         <div className="xl:flex lg:flex hidden justify-between uppercase">
-          <p className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] bg-[#FFD321] text-[#505050] px-5 py-4">
+          <a href="#" className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] bg-[#FFD321] text-[#505050] px-5 py-4">
             Home
-          </p>
-          <p className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] hover:bg-[#FFD321] text-[#505050] px-5 py-4 duration-300">
+          </a>
+          <a href="#About" className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] hover:bg-[#FFD321] text-[#505050] px-5 py-4 duration-300">
             About
-          </p>
-          <p className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] hover:bg-[#FFD321] text-[#505050] px-5 py-4 duration-300">
+          </a>
+          <a href="#Portfolio" className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] hover:bg-[#FFD321] text-[#505050] px-5 py-4 duration-300">
             Portfolio
-          </p>
-          <p className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] hover:bg-[#FFD321] text-[#505050] px-5 py-4 duration-300">
+          </a>
+          <a href="#Team" className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] hover:bg-[#FFD321] text-[#505050] px-5 py-4 duration-300">
             Team
-          </p>
-          <p className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] hover:bg-[#FFD321] text-[#505050] px-5 py-4 duration-300">
+          </a>
+          <a href="#Contact" className="text-[15px] font-semibold tracking-[4px] font-[Montserrat sans-serif] hover:bg-[#FFD321] text-[#505050] px-5 py-4 duration-300">
             Contact
-          </p>
+          </a>
         </div>
       </div>
     </div>

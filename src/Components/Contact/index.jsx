@@ -7,7 +7,7 @@ import Backgroundcontact from "./backgroundcontact";
 const Contact = () => {
   return (
     <div>
-      <div className="bg-[#F9F9F9] pt-20 px-4 xl:px-0 lg:px-0">
+      <div className="bg-[#F9F9F9] pt-20 px-4 xl:px-0 lg:px-0" id="Contact">
         <div className="text-center justify-center mt-20 pb-20">
           <p className="xl:text-[60px] lg:text-[50px] text-[40px] font-bold uppercase text-[#333333]">
             CONTACT US
